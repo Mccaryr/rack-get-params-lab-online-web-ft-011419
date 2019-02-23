@@ -31,11 +31,11 @@ class Application
       else
         resp.write "We don't have that item!"
       end
-    else 
+    else
       resp.write "Path not found"
     end
     resp.finish
-  end 
+  end
 
 
   def handle_search(search_term)
